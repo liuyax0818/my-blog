@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.6.0/style.min.css");
+
+:root {
+  /* 主色调：天蓝 → 蓝紫 */
+  --vp-c-brand: #4da3ff;
+  --vp-c-brand-light: #6bb8ff;
+  --vp-c-brand-dark: #3a8be0;
+
+  /* hover */
+  --vp-c-hover: #2b6cb0;
+
+  /* 背景 */
+  --vp-c-bg: #f4f9ff;
+  --vp-c-bg-alpha-with-backdrop: rgba(244, 249, 255, 0.7);
+
+  /* 辅助色（蓝紫体系） */
+  --vp-c-color-b: #7cc8ff;
+  --vp-c-color-c: #4da3ff;
+  --vp-c-color-d: #6a5acd;
+  --vp-c-color-e: #8a7dff;
+
+  /* 字体 */
+  --vp-font-family-base:
+    "LXGW WenKai Lite", "Inter var experimental", "Inter var", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+  --vp-font-family-mono:
+    "LXGW WenKai Mono Lite", ui-monospace, SFMono-Regular, "SF Mono", Menlo,
+    Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* 暗黑模式：偏蓝紫夜色 */
+.dark {
+  --vp-c-bg: #1e293b; /* 深蓝灰 */
+  --vp-c-text: #e6f0ff;
+
+  --vp-c-hover: #93c5fd;
+
+  --vp-c-bg-alpha-with-backdrop: rgba(30, 41, 59, 0.7);
+
+  --vp-avator-border: #334155;
+}
