@@ -34,10 +34,26 @@
 .dark {
   --vp-c-bg: #1e293b; /* 深蓝灰 */
   --vp-c-text: #e6f0ff;
-
   --vp-c-hover: #93c5fd;
-
   --vp-c-bg-alpha-with-backdrop: rgba(30, 41, 59, 0.7);
-
   --vp-avator-border: #334155;
+}
+
+#app {
+  min-height: 100vh;
+  position: relative;
+}
+
+.vp-doc h2 {
+  margin-top: 0;
+  border-top: none;
+}
+
+.VPDocOutlineDropdown {
+  display: none !important;
+}
+
+/* Prevent nav tabs from collapsing when theme toggle is present */
+.VPNavBar .VPNavBarMenu {
+  display: flex !important;
 }
