@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      lxgw-wenkai-lite-webfont:
+        specifier: ^1.7.0
+        version: 1.7.0
     devDependencies:
       vitepress:
         specifier: 2.0.0-alpha.17
@@ -568,6 +572,9 @@ packages:
 
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
+
+  lxgw-wenkai-lite-webfont@1.7.0:
+    resolution: {integrity: sha512-VcQYNRpdXAxaZsJ18rfT1mmAreGqkIFNZ/9pdVLbT2Tkb+2lLWJDXq4zYxMEk9AcecSnxO31R2LHh5ieLlxjRg==}
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
@@ -1174,6 +1181,8 @@ snapshots:
   hookable@5.5.3: {}
 
   html-void-elements@3.0.0: {}
+
+  lxgw-wenkai-lite-webfont@1.7.0: {}
 
   magic-string@0.30.21:
     dependencies:

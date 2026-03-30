@@ -3,6 +3,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import MyLayout from './components/MyLayout.vue'
 import AboutMe from './components/AboutMe.vue'
+import 'lxgw-wenkai-lite-webfont/style.css'
 import './custom.css'
 
 export default {

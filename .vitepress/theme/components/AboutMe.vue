@@ -31,9 +31,10 @@
           >
             Myon</a
           >
-          . As you probably guessed, besides programming, I also enjoy Anime and
-          GalGame (yes, I'm still single 😄), and I spend some time learning
-          <span class="highlight">Japanese</span>.
+          . As you probably guessed, besides programming, I also enjoy
+          <span class="highlight">Anime</span> and
+          <span class="highlight">GalGame</span> (yes, I'm still single 😄), and
+          I spend some time learning <span class="highlight">Japanese</span>.
         </p>
         <p>
           Currently based in <span class="highlight">Nanjing</span>, but I love
