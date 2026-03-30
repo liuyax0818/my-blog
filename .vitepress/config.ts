@@ -7,14 +7,13 @@ const EMAIL_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" heigh
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'en-US',
-  srcDir: "posts",
   title: "Hikari's home",
   description: "A blog site of Chitose Hikari",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/posts/markdown-examples' }
     ],
     search: { provider: 'local' },
 
@@ -22,8 +21,8 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Markdown Examples', link: '/posts/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/posts/api-examples' }
         ]
       }
     ],
