@@ -9,8 +9,22 @@
       <div class="about-desc">
         <p>
           I'm a Frontend Engineer with nearly 2 years of experience, building
-          scalable applications with <span class="highlight">Vue</span> and
-          <span class="highlight">TypeScript</span>.
+          scalable applications with
+          <a
+            class="highlight-link"
+            href="https://vuejs.org/"
+            target="_blank"
+            rel="noopener"
+            >Vue.js</a
+          >
+          and
+          <a
+            class="highlight-link"
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            rel="noopener"
+            >TypeScript</a
+          >.
         </p>
         <p>
           Since graduating in 2024, I've been working on
@@ -28,8 +42,7 @@
             href="https://www.pixiv.net/users/34876898"
             target="_blank"
             rel="noopener"
-          >
-            Myon</a
+            >Myon</a
           >
           . As you probably guessed, besides programming, I also enjoy
           <span class="highlight">Anime</span> and
@@ -53,8 +66,7 @@
             href="https://github.com/clark-cui/vitepress-blog-zaun"
             target="_blank"
             rel="noopener"
-          >
-            clark-cui</a
+            >clark-cui</a
           >
           . Huge thanks to
           <a
@@ -62,8 +74,7 @@
             href="https://github.com/clark-cui"
             target="_blank"
             rel="noopener"
-          >
-            Clark Cui</a
+            >Clark Cui</a
           >
           for the elegant template. Content on this page is translated by AI.
         </p>
@@ -78,7 +89,7 @@
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - var(--vp-nav-height, 64px) - 80px);
-  padding: 40px 24px;
+  padding: 40px 24px 56px;
 }
 
 .about-content {
