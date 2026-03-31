@@ -4,7 +4,7 @@
       <div class="about-avatar">
         <img src="/avatar.png" alt="Clark Cui" />
       </div>
-      <h1 class="about-name">Chitose Hikari</h1>
+      <h1 class="about-name">Hoshino Hikari</h1>
       <p class="about-bio">FrontEnd Developer</p>
       <div class="about-desc">
         <p>
@@ -31,7 +31,7 @@
           <span class="highlight">ToB systems</span>, taking part in projects
           from <span class="highlight">0 to 1</span> and designing
           <span class="highlight">frontend architecture</span> along the way. I
-          also have some hands-on experience with
+          also responsible for
           <span class="highlight">Java backend development</span>.
         </p>
         <p>
