@@ -1,27 +1,31 @@
 {
-  "name": "play",
+  "name": "my-blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "^20.9.0 || >=22.0.0",
+    "pnpm": ">=10"
+  },
+  "keywords": [],
+  "author": {
+    "name": "hikari",
+    "email": "1803703552@qq.com",
+    "url": "https://github.com/liuyax0818"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.29.3",
   "devDependencies": {
+    "@types/node": "^25.5.0",
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3",
+    "lxgw-wenkai-lite-webfont": "^1.7.0",
     "sass": "^1.98.0",
+    "typescript": "^6.0.2",
     "vitepress": "2.0.0-alpha.17",
     "vue": "^3.5.31"
-  },
-  "dependencies": {
-    "lxgw-wenkai-lite-webfont": "^1.7.0"
   }
 }
