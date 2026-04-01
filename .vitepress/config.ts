@@ -8,7 +8,7 @@ const EMAIL_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" heigh
 export default defineConfig({
   lang: 'en-US',
   title: "Hikari's home",
-  description: "A blog site of Chitose Hikari",
+  description: "A blog site of Hoshino Hikari",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

@@ -81,13 +81,17 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .about-page {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - var(--vp-nav-height, 64px) - 80px);
   padding: 40px 24px 56px;
+
+  @media (max-width: 640px) {
+    padding: 32px 20px 80px;
+  }
 }
 
 .about-content {
@@ -100,13 +104,17 @@
   display: flex;
   justify-content: center;
   margin-bottom: 24px;
-}
 
-.about-avatar img {
-  width: 135px;
-  height: 135px;
-  border-radius: 50%;
-  border: 5px solid var(--vp-avator-border);
+  img {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 5px solid var(--vp-avator-border);
+
+    &:hover {
+      animation: 5s linear 0s infinite avator-transform;
+    }
+  }
 }
 
 @keyframes avator-transform {
@@ -117,9 +125,6 @@
     transform: rotate(360deg);
   }
 }
-.about-avatar img:hover {
-  animation: 5s linear 0s infinite avator-transform;
-}
 
 .about-name {
   font-size: 2.2em;
@@ -128,6 +133,10 @@
   color: var(--vp-c-text-1);
   margin: 0 0 8px;
   line-height: 1.2;
+
+  @media (max-width: 640px) {
+    font-size: 1.8em;
+  }
 }
 
 .about-bio {
@@ -142,14 +151,14 @@
   font-size: 0.95em;
   color: var(--vp-c-text-2);
   line-height: 1.9;
-}
 
-.about-desc p {
-  margin: 0 0 16px;
-}
+  p {
+    margin: 0 0 16px;
 
-.about-desc p:last-child {
-  margin-bottom: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .highlight {
@@ -169,19 +178,9 @@
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
   transition: color 0.2s;
-}
 
-.highlight-link:hover {
-  color: var(--vp-c-brand);
-}
-
-@media (max-width: 640px) {
-  .about-name {
-    font-size: 1.8em;
-  }
-  .about-page {
-    padding: 32px 20px;
-    padding-bottom: 80px;
+  &:hover {
+    color: var(--vp-c-brand);
   }
 }
 </style>

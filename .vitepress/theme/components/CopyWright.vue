@@ -7,10 +7,12 @@
     | Copyright © 2025-{{ date }} | MIT License
   </footer>
 </template>
+
 <script lang="ts" setup>
 const date = new Date().getFullYear();
 </script>
-<style scoped>
+
+<style lang="scss" scoped>
 footer {
   text-align: center;
   position: absolute;
@@ -21,12 +23,14 @@ footer {
   background: var(--vp-c-bg);
   color: var(--vp-c-text);
 }
+
 a {
   color: var(--vp-c-brand);
   font-weight: bold;
-}
-a:hover {
-  text-decoration: none;
-  color: var(--vp-c-hover);
+
+  &:hover {
+    text-decoration: none;
+    color: var(--vp-c-hover);
+  }
 }
 </style>
