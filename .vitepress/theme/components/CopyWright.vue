@@ -17,6 +17,7 @@ footer {
   width: 100%;
   bottom: 20px;
   padding: 0 20px;
+  font-size: 14px;
   background: var(--vp-c-bg);
   color: var(--vp-c-text);
 }

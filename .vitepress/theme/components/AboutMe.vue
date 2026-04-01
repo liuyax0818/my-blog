@@ -43,8 +43,7 @@
             target="_blank"
             rel="noopener"
             >Myon</a
-          >
-          . As you probably guessed, besides programming, I also enjoy
+          >. As you probably guessed, besides programming, I also enjoy
           <span class="highlight">Anime</span> and
           <span class="highlight">GalGame</span> (yes, I'm still single 😄), and
           I spend some time learning <span class="highlight">Japanese</span>.
@@ -67,8 +66,7 @@
             target="_blank"
             rel="noopener"
             >clark-cui</a
-          >
-          . Huge thanks to
+          >. Huge thanks to
           <a
             class="highlight-link"
             href="https://github.com/clark-cui"
@@ -158,7 +156,7 @@
   color: var(--vp-c-text-1);
   font-weight: 600;
   text-decoration: underline;
-  text-decoration-color: var(--vp-c-brand);
+  text-decoration-color: var(--vp-c-brand-light);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }

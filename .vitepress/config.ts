@@ -13,19 +13,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/posts/markdown-examples' }
+      { text: 'Archives', link: '/archives' }
     ],
     search: { provider: 'local' },
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/posts/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/posts/api-examples' }
-        ]
-      }
-    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/liuyax0818', ariaLabel: 'GitHub' },
