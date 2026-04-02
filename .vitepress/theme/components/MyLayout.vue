@@ -1,5 +1,8 @@
 <template>
   <Layout>
+    <template #doc-before>
+      <Title />
+    </template>
     <template #doc-after>
       <div>
         <button @click="goBack">cd ..</button>
@@ -14,6 +17,7 @@ import { computed } from "vue";
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import CopyWright from "./CopyWright.vue";
+import Title from "./Title.vue";
 
 const { Layout } = DefaultTheme;
 const { page } = useData();
