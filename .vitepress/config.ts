@@ -1,4 +1,5 @@
 import { DefaultTheme, defineConfig } from 'vitepress'
+import tailwindcss from '@tailwindcss/vite'
 import { getPosts, Post } from './theme/serverUtils'
 
 // 扩展 VitePress 主题配置
@@ -7,8 +8,6 @@ interface BlogThemeConfig extends DefaultTheme.Config {
   posts: Post[]
   pageSize: number
   postLength: number
-  nav: any[]
-  socialLinks: any[]
 }
 
 const EMAIL_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -18,13 +17,15 @@ const EMAIL_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" heigh
 // https://vitepress.dev/reference/site-config
 export default async () => {
 
+  const posts = await getPosts()
+
   // https://vitepress.dev/reference/default-theme-config
   const themeConfig: BlogThemeConfig = {
     search: { provider: 'local' },
     docsDir: '/',
-    posts: await getPosts(),
-    pageSize: 10,
-    postLength: 10,
+    posts,
+    pageSize: 5,
+    postLength: posts.length,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Archives', link: '/archives' }
@@ -45,7 +46,15 @@ export default async () => {
       ['meta', { property: 'og:description', content: 'A blog site of Hoshino Hikari' }],
     ],
     lastUpdated: false,
-    themeConfig
+    themeConfig,
+    vite: {
+      plugins: [
+        tailwindcss() as any
+      ],
+      server: {
+        host: '0.0.0.0'
+      }
+    }
   })
 
 } 

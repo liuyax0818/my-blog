@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   /* 主色调：天蓝 → 蓝紫 */
   --vp-c-brand: #4da3ff;
