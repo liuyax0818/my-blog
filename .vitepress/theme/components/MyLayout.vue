@@ -13,18 +13,11 @@
 </template>
 
 <script lang="ts" setup>
-import { computed } from "vue";
-import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import CopyWright from "./CopyWright.vue";
 import Title from "./Title.vue";
 
 const { Layout } = DefaultTheme;
-const { page } = useData();
-
-const isNotesPage = computed(() =>
-  page.value.relativePath.startsWith("notes/"),
-);
 
 function goBack(): void {
   history.back();
