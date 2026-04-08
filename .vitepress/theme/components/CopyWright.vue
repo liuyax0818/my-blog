@@ -4,7 +4,10 @@
     <a href="https://github.com/clark-cui/" target="_blank" title="作者"
       >clark-cui</a
     >
-    | Copyright © 2025-{{ date }} | MIT License
+    | Copyright © 2025-{{ date }} | MIT License |
+    <a href="https://beian.miit.gov.cn/" target="_blank" title="备案号"
+      >苏ICP备2026019316号</a
+    >
   </footer>
 </template>
 
