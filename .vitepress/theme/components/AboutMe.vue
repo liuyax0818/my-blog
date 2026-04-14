@@ -87,10 +87,10 @@
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - var(--vp-nav-height, 64px) - 80px);
-  padding: 40px 24px 56px;
+  padding: 40px 24px 80px;
 
   @media (max-width: 640px) {
-    padding: 32px 20px 80px;
+    padding: 32px 20px 100px;
   }
 }
 

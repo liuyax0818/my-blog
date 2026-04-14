@@ -5,8 +5,15 @@
       >clark-cui</a
     >
     | Copyright © 2025-{{ date }} | MIT License |
-    <a href="https://beian.miit.gov.cn/" target="_blank" title="备案号"
+    <a href="https://beian.miit.gov.cn/" target="_blank" title="工信部备案号"
       >苏ICP备2026019316号</a
+    >
+    |
+    <a
+      href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32011502013821"
+      target="_blank"
+      title="公安备案号"
+      >苏公网安备32011502013821号</a
     >
   </footer>
 </template>
